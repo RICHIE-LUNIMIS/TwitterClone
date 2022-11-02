@@ -1,0 +1,152 @@
+body{
+    background-color: rgb(253, 255, 254);
+}
+
+html body{
+    height: 100%;
+}
+.content {
+    max-width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: aqua;
+    border-style: solid;
+}
+::marker {
+    color: rgb(0 255 255);
+}
+
+.list {
+        position: relative;
+        float: right;
+        top: 0px;
+        width: 33px;
+}
+img.post-border {
+    left: 21%;
+    position: relative;
+    margin-bottom: 27%;
+    border-style: solid;
+}
+
+.name {
+    position: relative;
+    left: 50px;
+    top: -76px;
+}
+
+.hobbies {
+    position: relative;
+    top: -76px;
+    left: 50px;
+    width: 430px;
+    background-color: cornsilk;
+}
+.date {
+    position: relative;
+    text-align: left;
+    top: -30px;
+    left: 50px;
+}
+.posts{
+    background-color: aqua;
+    
+}
+
+form {
+    position: relative;
+    text-align: center;
+}
+a {
+    position: relative;
+    left: 84%;
+    top: 1px;
+    font-size: 20px;
+}
+.logo img {
+    width: 85px;
+    position: relative;
+    right: 7%;
+    top: 13px;
+}
+li .listd{
+    display: none;
+}
+form{
+    padding: 10%;
+    gap:10px;
+}
+
+input.upload-file {
+    position: relative;
+    left: 7%;
+    margin-top: 5%;
+}
+
+#postbt {
+    position: relative;
+    left: 92px;
+    width: 21%;
+    height: 2vw;
+    border-radius: 12vw;
+}
+input[type="text"] {
+    margin: 15px;
+    width: 60%;
+    height: 2vw;
+}
+textarea#Hobbies {
+    width: 60%;
+    height: 6vw;
+}
+.tflogo {
+    position: absolute;
+    right: 93%;
+    bottom: 84%;
+}
+textarea {
+    width: 22vw;
+    position: relative;
+    bottom: 9px;
+    height: 10vw;
+}
+img.post-border {
+    left: 18%;
+    position: relative;
+    margin-bottom: 2%;
+    border-style: solid;
+    border-bottom: 2;
+    top: 0vw;
+}
+input#cancelbutton {
+    position: relative;
+    right: 59%;
+    top: 19px;
+    border-radius: 12px;
+    width: 81px;
+    height: 42px;
+}
+
+input#updatebt {
+    
+    position: relative;
+    border-radius: 12px;
+    width: 85px;
+    height: 39px;
+    bottom: 19px;
+}
+h1 {
+    text-align: center;
+    height: 0px;
+    font-size: 37px;
+    font-family: cursive;
+    margin: 0px;
+}
+.likebt {
+    margin-bottom: 5%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 4vw;
+    width: 65px;
+}

@@ -1,0 +1,44 @@
+{% extends 'base.html' %} {% block content %} {% load static %}
+<section id = title>
+    <a href="/">
+    </a>
+    <h1>
+      HOME  
+    </h1>
+</section>
+<section class="content">
+    <section class ="postform">
+    
+        <form action="/edit/{{posts.id}}/" method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            
+            <div class="input">
+                <div class="tflogo">
+                    <img src="./static/IMG/Tlogo.png" alt="">
+                </div>
+            <input class="text" type='text' name="name" placeholder="Name"  value="{{posts.name}}" required />
+            <br>
+            <textarea name="hobbie" placeholder="whats" required>{{posts.hobbie}}</textarea>
+            <br>
+            <label for="{{post.name}}"></label>
+               <input type="file" name ="image">
+            {% if posts.image %}
+            <img class ="post-border" src="{{posts.image.url}}">
+            {% endif %}
+            <div class="updatedbt">
+                <a class="cancel-bt" href="/">
+                    
+            <input id="cancelbutton" type="button" id ='delete' value="cancel">
+        </a>
+            </div>
+
+
+            <input id="updatebt" type="submit" value="UPDATE"/>
+        </div>
+        </form>
+    </section>
+        
+
+</section>
+
+{% endblock %}
